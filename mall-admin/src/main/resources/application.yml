@@ -49,10 +49,10 @@ secure:
 
 aliyun:
   oss:
-    endpoint: oss-cn-shenzhen.aliyuncs.com # oss对外服务的访问域名
-    accessKeyId: test # 访问身份验证中用到用户标识
-    accessKeySecret: test # 用户用于加密签名字符串和oss用来验证签名字符串的密钥
-    bucketName: macro-oss # oss的存储空间
+    endpoint: oss-cn-beijing.aliyuncs.com # oss对外服务的访问域名
+    accessKeyId: LTAI4Ft4t5qcRQawV4sz4qCV # 访问身份验证中用到用户标识
+    accessKeySecret: 3HaVtft5213VXxVwo4wLwVx6e4KsUl # 用户用于加密签名字符串和oss用来验证签名字符串的密钥
+    bucketName: 20180418wzxtest # oss的存储空间
     policy:
       expire: 300 # 签名有效期(S)
     maxSize: 10 # 上传文件大小(M)
@@ -61,7 +61,7 @@ aliyun:
       prefix: mall/images/ # 上传文件夹路径前缀
 
 minio:
-  endpoint: http://192.168.3.101:9090 #MinIO服务所在地址
+  endpoint: http://192.168.246.128:9090 #MinIO服务所在地址
   bucketName: mall #存储桶名称
   accessKey: minioadmin #访问的key
   secretKey: minioadmin #访问的秘钥

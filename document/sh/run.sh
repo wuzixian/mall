@@ -6,7 +6,7 @@ app_name='mall-admin'
 # 定义应用版本
 app_version='1.0.1-SNAPSHOT'
 # 定义应用环境
-profile_active='prod'
+profile_active='dev'
 echo '----copy jar----'
 docker stop ${app_name}
 echo '----stop container----'
